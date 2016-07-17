@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6731D63B32AE150390957CB5 /* Pods_unisportAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E44E5962E565C1353426F02 /* Pods_unisportAPP.framework */; };
+		9C462FD41D37BBD700DD0AF5 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C462FD31D37BBD700DD0AF5 /* ProductViewController.swift */; };
+		9C4960C81D3677560048DC2C /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4960C71D3677560048DC2C /* ShopTableViewController.swift */; };
+		9C4960CA1D36779B0048DC2C /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4960C91D36779B0048DC2C /* ShopTableViewCell.swift */; };
+		9C4F00181D36E88C004E6F5D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4960C31D3660460048DC2C /* SwiftyJSON.framework */; };
 		9CA018781D3652E100477466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA018771D3652E100477466 /* AppDelegate.swift */; };
-		9CA0187A1D3652E100477466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA018791D3652E100477466 /* ViewController.swift */; };
 		9CA0187D1D3652E100477466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0187B1D3652E100477466 /* Main.storyboard */; };
 		9CA018801D3652E200477466 /* unisportAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0187E1D3652E200477466 /* unisportAPP.xcdatamodeld */; };
 		9CA018821D3652E200477466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA018811D3652E200477466 /* Assets.xcassets */; };
 		9CA018851D3652E200477466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA018831D3652E200477466 /* LaunchScreen.storyboard */; };
 		9CA018901D3652E200477466 /* unisportAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0188F1D3652E200477466 /* unisportAPPTests.swift */; };
 		9CA0189B1D3652E200477466 /* unisportAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0189A1D3652E200477466 /* unisportAPPUITests.swift */; };
+		9CB351E51D36E00B00BEC259 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB351E41D36E00B00BEC259 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49D9312A3B556D883B097499 /* Pods-unisportAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unisportAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-unisportAPP/Pods-unisportAPP.release.xcconfig"; sourceTree = "<group>"; };
+		62F2E2F944893DA5ACF9ADCE /* Pods-unisportAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unisportAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unisportAPP/Pods-unisportAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		6E44E5962E565C1353426F02 /* Pods_unisportAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unisportAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C462FD31D37BBD700DD0AF5 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		9C4960C31D3660460048DC2C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/unisportAPP-crapzszahbdcpoazyxecsnhouoyn/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		9C4960C71D3677560048DC2C /* ShopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+		9C4960C91D36779B0048DC2C /* ShopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
 		9CA018741D3652E100477466 /* unisportAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unisportAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA018771D3652E100477466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CA018791D3652E100477466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CA0187C1D3652E100477466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CA0187F1D3652E200477466 /* unisportAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = unisportAPP.xcdatamodel; sourceTree = "<group>"; };
 		9CA018811D3652E200477466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,8 @@
 		9CA018961D3652E200477466 /* unisportAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unisportAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA0189A1D3652E200477466 /* unisportAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unisportAPPUITests.swift; sourceTree = "<group>"; };
 		9CA0189C1D3652E200477466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA018AA1D365ED500477466 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB351E41D36E00B00BEC259 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/unisportAPP-crapzszahbdcpoazyxecsnhouoyn/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4F00181D36E88C004E6F5D /* SwiftyJSON.framework in Frameworks */,
+				9CB351E51D36E00B00BEC259 /* Alamofire.framework in Frameworks */,
+				6731D63B32AE150390957CB5 /* Pods_unisportAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +92,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C5DD2D46FF8DA988D10F5B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F2E2F944893DA5ACF9ADCE /* Pods-unisportAPP.debug.xcconfig */,
+				49D9312A3B556D883B097499 /* Pods-unisportAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98D63E261D98422A93A82B56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB351E41D36E00B00BEC259 /* Alamofire.framework */,
+				9C4960C31D3660460048DC2C /* SwiftyJSON.framework */,
+				6E44E5962E565C1353426F02 /* Pods_unisportAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CA0186B1D3652E100477466 = {
 			isa = PBXGroup;
 			children = (
+				9CA018AA1D365ED500477466 /* Podfile */,
 				9CA018761D3652E100477466 /* unisportAPP */,
 				9CA0188E1D3652E200477466 /* unisportAPPTests */,
 				9CA018991D3652E200477466 /* unisportAPPUITests */,
 				9CA018751D3652E100477466 /* Products */,
+				4C5DD2D46FF8DA988D10F5B6 /* Pods */,
+				98D63E261D98422A93A82B56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				9CA018771D3652E100477466 /* AppDelegate.swift */,
-				9CA018791D3652E100477466 /* ViewController.swift */,
 				9CA0187B1D3652E100477466 /* Main.storyboard */,
+				9C462FD31D37BBD700DD0AF5 /* ProductViewController.swift */,
+				9C4960C71D3677560048DC2C /* ShopTableViewController.swift */,
+				9C4960C91D36779B0048DC2C /* ShopTableViewCell.swift */,
 				9CA018811D3652E200477466 /* Assets.xcassets */,
 				9CA018831D3652E200477466 /* LaunchScreen.storyboard */,
 				9CA018861D3652E200477466 /* Info.plist */,
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA0189F1D3652E200477466 /* Build configuration list for PBXNativeTarget "unisportAPP" */;
 			buildPhases = (
+				C11A15280B8AB5113F67792E /* Check Pods Manifest.lock */,
 				9CA018701D3652E100477466 /* Sources */,
 				9CA018711D3652E100477466 /* Frameworks */,
 				9CA018721D3652E100477466 /* Resources */,
+				8B1A9E65B77F7FEE30D73BF4 /* Embed Pods Frameworks */,
+				192DDFC21C425F0C411B0F78 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +297,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		192DDFC21C425F0C411B0F78 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unisportAPP/Pods-unisportAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1A9E65B77F7FEE30D73BF4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unisportAPP/Pods-unisportAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11A15280B8AB5113F67792E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CA018701D3652E100477466 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA0187A1D3652E100477466 /* ViewController.swift in Sources */,
+				9C462FD41D37BBD700DD0AF5 /* ProductViewController.swift in Sources */,
+				9C4960C81D3677560048DC2C /* ShopTableViewController.swift in Sources */,
+				9C4960CA1D36779B0048DC2C /* ShopTableViewCell.swift in Sources */,
 				9CA018781D3652E100477466 /* AppDelegate.swift in Sources */,
 				9CA018801D3652E200477466 /* unisportAPP.xcdatamodeld in Sources */,
 			);
@@ -403,23 +496,27 @@
 		};
 		9CA018A01D3652E200477466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F2E2F944893DA5ACF9ADCE /* Pods-unisportAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = unisportAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.umorujoseph.unisportAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		9CA018A11D3652E200477466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D9312A3B556D883B097499 /* Pods-unisportAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = unisportAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.umorujoseph.unisportAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -488,6 +585,7 @@
 				9CA018A11D3652E200477466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CA018A21D3652E200477466 /* Build configuration list for PBXNativeTarget "unisportAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +594,7 @@
 				9CA018A41D3652E200477466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CA018A51D3652E200477466 /* Build configuration list for PBXNativeTarget "unisportAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +603,7 @@
 				9CA018A71D3652E200477466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
